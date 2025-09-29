@@ -1,4 +1,14 @@
 /**
+  * @name GlassCord
+  * @author 7nfy
+  * @version GlassCord+1
+  * @description Simple Glassy Theme by @5bra
+  * @authorId 969780652704694293
+  * @source https://raw.githubusercontent.com/5bra3mk/5bra3mk.github.io/refs/heads/main/GlassCord.css
+  * @invite pGQUymwZcf
+*/
+
+/**
  ██████╗ ██╗      █████╗ ███████╗███████╗ ██████╗ ██████╗ ██████╗ ██████╗
 ██╔════╝ ██║     ██╔══██╗██╔════╝██╔════╝██╔════╝██╔═══██╗██╔══██╗██╔══██╗
 ██║  ███╗██║     ███████║███████╗███████╗██║     ██║   ██║██████╔╝██║  ██║
@@ -12,17 +22,6 @@
 ██╔══██╗  ╚██╔╝         ██╔╝ ██║╚██╗██║██╔══╝    ╚██╔╝
 ██████╔╝   ██║          ██║  ██║ ╚████║██║        ██║
 ╚═════╝    ╚═╝          ╚═╝  ╚═╝  ╚═══╝╚═╝        ╚═╝
-*/
-
-
-
-
-
-/**
-  * @name GlassCord
-  * @author ✪ 7иFλ ✪
-  * @version The First
-  * @description Simple Glass theme for Discord
 */
 
 :root {
@@ -358,3 +357,4 @@
     background-color: transparent;
   }
 }
+
