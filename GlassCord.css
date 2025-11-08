@@ -49,9 +49,9 @@ $R@i.~~ !     :   ~$$$$$B$$en:``
 */
 
 :root {
-    --theme-background-image: url(https://i.pinimg.com/originals/f0/1f/fe/f01ffe88888294c9dc6fa44664279d31.gif);
+    --theme-background-image: url(https://cdn.discordapp.com/attachments/1380978355280810036/1436533640640204821/icon.7nfy.png?ex=690ff3b5&is=690ea235&hm=b05bf281138e17c73a0c67d8bcf8adb38cf0ec7e66386f9185af32bb47ce623e&);
     --theme-background-position: center;
-    --home-icon-image: url(https://i.pinimg.com/1200x/22/a2/eb/22a2eba036fa79f237b90078f06cf163.jpg);
+    --home-icon-image: url(https://cdn.discordapp.com/attachments/1380978355280810036/1436533572184838184/3a376722810dcfd3e8dfcb5fdcc962ee.png?ex=690ff3a5&is=690ea225&hm=2665c06e6b6c345f001505d606ed3806c8b3759e0b1e41d2e2bb4f68169f1ae6&);
     --theme-transparency: rgba(0, 0, 0, 0.8);
     --home-icon-image-position: center;
     --home-icon-image-zoom: cover;
@@ -128,40 +128,6 @@ $R@i.~~ !     :   ~$$$$$B$$en:``
   .app__160d8,
   .privateChannels_e6b769,
   .outer_c0bea0,
-  .scrollerBase_d125d2 {
-    background: transparent;
-    }
-
-  .bg__960e4,
-  .overlay_c0bea0,
-  .scroller_c1e9c4,
-  .container__8a031,
-  .addFriendInputWrapper__72ba7,
-  .page_c791b2,
-  .content__49fc1,
-  .flex__7c0ba,
-  .inner_c0bea0,
-  .panels__5e434{
-    background: var(--theme-transparency);
-  }
-
-  .wrapper_ef3116 {
-    background: transparent;
-  }
-
-  .gridContainer__623de{
-    background-color: rgba(0, 0, 0, 0.6);
-  }
-
-  .panels_c48ade {
-    background: var(--message-box-transparency);
-    backdrop-filter: blur(5px);
-  }
-
-  .sidebar_c48ade:after {
-    background: transparent;
-  }
-
   .container__2637a,
   .chat_f75fb0,
   .chatContent_f75fb0,
@@ -192,9 +158,41 @@ $R@i.~~ !     :   ~$$$$$B$$en:``
   .container_f369db,
   .root_bfe55a,
   .chatLayerWrapper__01ae2,
-  .channelChatWrapper_cb9592 {
+  .channelChatWrapper_cb9592,
+  .scrollerBase_d125d2,
+  .flex__7c0ba {
+    background: transparent;
+    }
+
+  .bg__960e4,
+  .overlay_c0bea0,
+  .scroller_c1e9c4,
+  .container__8a031,
+  .addFriendInputWrapper__72ba7,
+  .page_c791b2,
+  .content__49fc1,
+  .inner_c0bea0,
+  .panels__5e434{
+    background: var(--theme-transparency);
+  }
+
+  .wrapper_ef3116 {
     background: transparent;
   }
+
+  .gridContainer__623de{
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .panels_c48ade {
+    background: var(--message-box-transparency);
+    backdrop-filter: blur(5px);
+  }
+
+  .sidebar_c48ade:after {
+    background: transparent;
+  }
+
       .stack_dbd263.scroller_ef3116.none_d125d2.scrollerBase_d125d2 .stack_dbd263 {
         justify-content: center;
     }
