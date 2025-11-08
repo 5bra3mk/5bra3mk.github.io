@@ -1,7 +1,7 @@
 /**
   * @name GlassCord
   * @author 7nfy
-  * @version GlassCord+1
+  * @version GlassCord+2
   * @description Simple Glassy Theme by @5bra
   * @authorId 969780652704694293
   * @source https://raw.githubusercontent.com/5bra3mk/5bra3mk.github.io/refs/heads/main/GlassCord.css
@@ -22,10 +22,34 @@
 ██╔══██╗  ╚██╔╝         ██╔╝ ██║╚██╗██║██╔══╝    ╚██╔╝
 ██████╔╝   ██║          ██║  ██║ ╚████║██║        ██║
 ╚═════╝    ╚═╝          ╚═╝  ╚═╝  ╚═══╝╚═╝        ╚═╝
+
+
+
+                      :::!~!!!!!:.
+                .xUHWH!! !!?M88WHX:.
+                .X*#M@$!!  !X!M$$$$$$WWx:.
+            :!!!!!!?H! :!$!$$$$$$$$$$8X:
+            !!~  ~:~!! :~!$!#$$$$$$$$$$8X:
+            :!~::!H!<   ~.U$X!?R$$$$$$$$MM!
+            ~!~!!!!~~ .:XW$$$U!!?$$$$$$RMM!
+            !:~~~ .:!M"T#$$$$WX??#MRRMMM!
+            ~?WuxiW*`   `"#$$$$8!!!!??!!!
+            :X- M$$$$       `"T#$T~!8$WUXU~
+            :%`  ~#$$$m:        ~!~ ?$$$$$$
+        :!`.-   ~T$$$$8xx.  .xWW- ~""##*"
+.....   -~~:<` !    ~?T#$$@@W@*?$$      /`
+W$@@M!!! .!~~ !!     .:XUW$W!~ `"~:    :
+#"~~`.:x%`!!  !H:   !WM$$$$Ti.: .!WUn+!`
+:::~:!!`:X~ .: ?H.!u "$$$B$$$!W:U!T$$M~
+.~~   :X@!.-~   ?@WTWo("*$$$W$TH$! `
+Wi.~!X$?!-~    : ?$$$B$Wu("**$RM!
+$R@i.~~ !     :   ~$$$$$B$$en:``
+?MXT@Wx.~    :     ~"##*$$$$M~
+
 */
 
 :root {
-    --theme-background-image: url(https://i.imgur.com/TONTOI1.gif);
+    --theme-background-image: url(https://i.pinimg.com/originals/f0/1f/fe/f01ffe88888294c9dc6fa44664279d31.gif);
     --theme-background-position: center;
     --home-icon-image: url(https://i.pinimg.com/1200x/22/a2/eb/22a2eba036fa79f237b90078f06cf163.jpg);
     --theme-transparency: rgba(0, 0, 0, 0.8);
@@ -82,7 +106,7 @@
     position: fixed;
     top: 10px;
     left: 10px;
-    content: "✪ 7 и F λ ✪";
+    content: "By ✪ 7 и F λ ✪";
     font-size: 20px;
     font-weight: bold;
     color: #ffffff;
@@ -101,16 +125,32 @@
     background-position: var(--theme-background-position)
   }
 
-  .app__160d8 {
+  .app__160d8,
+  .privateChannels_e6b769,
+  .outer_c0bea0,
+  .scrollerBase_d125d2 {
     background: transparent;
     }
 
-  .bg__960e4 {
+  .bg__960e4,
+  .overlay_c0bea0,
+  .scroller_c1e9c4,
+  .container__8a031,
+  .addFriendInputWrapper__72ba7,
+  .page_c791b2,
+  .content__49fc1,
+  .flex__7c0ba,
+  .inner_c0bea0,
+  .panels__5e434{
     background: var(--theme-transparency);
   }
 
   .wrapper_ef3116 {
     background: transparent;
+  }
+
+  .gridContainer__623de{
+    background-color: rgba(0, 0, 0, 0.6);
   }
 
   .panels_c48ade {
@@ -161,9 +201,6 @@
 
   .channelTextArea_f75fb0 {
     background: var(--message-box-transparency);
-  }
-
-  .scrollerWrap-1IAIlv {
   }
 
   .wrapper_ef3116 .scroller_ef3116 {
@@ -357,4 +394,3 @@
     background-color: transparent;
   }
 }
-
