@@ -49,9 +49,9 @@ $R@i.~~ !     :   ~$$$$$B$$en:``
 */
 
 :root {
-    --theme-background-image: url(https://cdn.discordapp.com/attachments/1380978355280810036/1436533640640204821/icon.7nfy.png?ex=690ff3b5&is=690ea235&hm=b05bf281138e17c73a0c67d8bcf8adb38cf0ec7e66386f9185af32bb47ce623e&);
+    --theme-background-image: url(https://i.imgur.com/TONTOI1.gif);
     --theme-background-position: center;
-    --home-icon-image: url(https://cdn.discordapp.com/attachments/1380978355280810036/1436533572184838184/3a376722810dcfd3e8dfcb5fdcc962ee.png?ex=690ff3a5&is=690ea225&hm=2665c06e6b6c345f001505d606ed3806c8b3759e0b1e41d2e2bb4f68169f1ae6&);
+    --home-icon-image: url(https://i.pinimg.com/1200x/22/a2/eb/22a2eba036fa79f237b90078f06cf163.jpg);
     --theme-transparency: rgba(0, 0, 0, 0.8);
     --home-icon-image-position: center;
     --home-icon-image-zoom: cover;
@@ -160,9 +160,16 @@ $R@i.~~ !     :   ~$$$$$B$$en:``
   .chatLayerWrapper__01ae2,
   .channelChatWrapper_cb9592,
   .scrollerBase_d125d2,
+  .content_e9e3ed,
+  .contentHeader_e9e3ed,
+  .theme-dark,
+  .theme-darker,
+  .images-dark,
   .flex__7c0ba {
     background: transparent;
     }
+
+
 
   .bg__960e4,
   .overlay_c0bea0,
@@ -390,5 +397,11 @@ $R@i.~~ !     :   ~$$$$$B$$en:``
 
   .scroller__28a87 {
     background-color: transparent;
+  }
+  .textRevealer__1fed1{
+    filter: blur(2.5px);
+  }
+    .textRevealer__1fed1:hover{
+    filter: blur(0px);
   }
 }
