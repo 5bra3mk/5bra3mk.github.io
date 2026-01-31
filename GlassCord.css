@@ -50,6 +50,7 @@ $R@i.~~ !     :   ~$$$$$B$$en:``
 :root {
     --theme-background-image: url(https://i.imgur.com/TONTOI1.gif);
     --home-icon-image: url(https://i.pinimg.com/1200x/22/a2/eb/22a2eba036fa79f237b90078f06cf163.jpg);
+    --panel-background-image: url(https://i.pinimg.com/originals/6b/fc/3c/6bfc3c650c24d1cc9d5214964303c06d.gif);
     --theme-transparency: rgba(0, 0, 0, 0.5);
     --home-icon-image-position: center;
     --home-icon-image-zoom: 150%;
@@ -161,7 +162,7 @@ body::after {
 
 [class*="menu"]
 {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.85);
 }
 [class*="cont"],
 [class*="soundButton_"],
@@ -179,4 +180,52 @@ body::after {
 [class*="Revealer_"]:hover 
 {
   filter: blur(0px);
+}
+
+body, span, p, h1, h2, h3, div {
+  color: #ffffff !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);
+}
+
+svg {
+  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.35));
+}
+
+[class*="winButton_"]:hover {
+  animation: smoothRainbow 1.5s linear infinite;
+}
+
+@keyframes smoothRainbow {
+  0% {
+    box-shadow:
+      0 0 12px red,
+      0 0 18px orange,
+      0 0 24px yellow;
+  }
+  33% {
+    box-shadow:
+      0 0 12px yellow,
+      0 0 18px green,
+      0 0 24px cyan;
+  }
+  66% {
+    box-shadow:
+      0 0 12px cyan,
+      0 0 18px blue,
+      0 0 24px violet;
+  }
+  100% {
+    box-shadow:
+      0 0 12px red,
+      0 0 18px orange,
+      0 0 24px yellow;
+  }
+}
+
+[class*="panels"]
+ {
+  background-image: var(--panel-background-image);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
