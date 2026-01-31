@@ -57,6 +57,7 @@ $R@i.~~ !     :   ~$$$$$B$$en:``
     --message-box-transparency: rgba(0, 0, 0, 0);
     --unread-server-animation: rainbow;
 }
+/**by 7nfy https://discord.gg/pGQUymwZcf */
 body::after {
   content: "By ✪ 7 и F λ ✪";
   position: fixed;
@@ -68,8 +69,8 @@ body::after {
   pointer-events: none;
   z-index: 9999;
 }
-
-
+/**====================================== */
+/**by 7nfy https://discord.gg/pGQUymwZcf */
 [class*="appMount"],
 [class*="app_"],
 [class*="wrapper_"],
@@ -87,7 +88,7 @@ body::after {
 [class*="scroller"] {
   background: 0 0;
 }
-
+/**by 7nfy https://discord.gg/pGQUymwZcf */
 [class*="appMount"] {
   background-image: var(--theme-background-image);
   background-size: cover;
@@ -97,22 +98,22 @@ body::after {
 [class*="bg_"] {
   background: var(--theme-transparency);
 }
-
+/**by 7nfy https://discord.gg/pGQUymwZcf */
 [class*="pill"] {
   width: 100% !important;
 }
-
+/**by 7nfy https://discord.gg/pGQUymwZcf */
 [class*="item"][class*="unread"] {
   animation: var(--unread-server-animation) 3s linear infinite;
   border: 2px solid var(--main-theme-color);
   background: transparent;
   border-radius: 30%;
 }
-
+/**by 7nfy https://discord.gg/pGQUymwZcf */
 [class*="childWrapper"] svg {
   display: none;
 }
-
+/**by 7nfy https://discord.gg/pGQUymwZcf */
 [class*="childWrapper"],
 [class*="NoHoverBg"]
 {
@@ -121,7 +122,7 @@ body::after {
   background-position: var(--home-icon-image-position);
   background-repeat: no-repeat;
 }
-
+/**by 7nfy https://discord.gg/pGQUymwZcf */
 [class*="panels"],
 [class*="panel_"],
 [class*="activityPanel_"],
@@ -159,7 +160,7 @@ body::after {
   background-color: rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(5px);
 }
-
+/**by 7nfy https://discord.gg/pGQUymwZcf */
 [class*="menu"]
 {
   background-color: rgba(0, 0, 0, 0.85);
@@ -171,30 +172,21 @@ body::after {
  {
   background: transparent !important;
  }
-
+/**by 7nfy https://discord.gg/pGQUymwZcf */
 [class*="Revealer_"]
  {
   filter: blur(5px);
 }
-
+/**by 7nfy https://discord.gg/pGQUymwZcf */
 [class*="Revealer_"]:hover 
 {
   filter: blur(0px);
 }
-
-body, span, p, h1, h2, h3, div {
-  color: #ffffff !important;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);
-}
-
-svg {
-  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.35));
-}
-
+/**by 7nfy https://discord.gg/pGQUymwZcf */
 [class*="winButton_"]:hover {
   animation: smoothRainbow 1.5s linear infinite;
 }
-
+/**by 7nfy https://discord.gg/pGQUymwZcf */
 @keyframes smoothRainbow {
   0% {
     box-shadow:
@@ -221,7 +213,7 @@ svg {
       0 0 24px yellow;
   }
 }
-
+/**by 7nfy https://discord.gg/pGQUymwZcf */
 [class*="panels"]
  {
   background-image: var(--panel-background-image);
@@ -229,3 +221,4 @@ svg {
   background-position: center center;
   background-repeat: no-repeat;
 }
+/**by 7nfy https://discord.gg/pGQUymwZcf */
