@@ -99,10 +99,6 @@ body::after {
   background: var(--theme-transparency);
 }
 /**by 7nfy https://discord.gg/pGQUymwZcf */
-[class*="pill"] {
-  width: 100% !important;
-}
-/**by 7nfy https://discord.gg/pGQUymwZcf */
 [class*="item"][class*="unread"] {
   animation: var(--unread-server-animation) 3s linear infinite;
   border: 2px solid var(--main-theme-color);
